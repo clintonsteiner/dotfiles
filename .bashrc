@@ -1,10 +1,12 @@
-if [[ -f ./config.sh ]]; then
-	 . ./config.sh
+if [[ -f ~/dotfiles/config.sh ]]; then
+	 . ~/dotfiles/config.sh
 fi
 
-if [[ -f ./functions.sh ]]; then
-	 . ./functions.sh
+if [[ -f ~/dotfiles/functions.sh ]]; then
+	 . ~/dotfiles/functions.sh
 fi
-if [[ -f ./aliases.sh ]]; then
-	 . ./aliases.sh
+if [[ -f ~/dotfiles/aliases.sh ]]; then
+	 . ~/dotfiles/aliases.sh
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
