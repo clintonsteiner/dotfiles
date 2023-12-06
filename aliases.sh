@@ -30,3 +30,4 @@ alias gbdates='git for-each-ref --sort=committerdate refs/heads/ --format="%(HEA
 alias gco='git checkout'
 alias gca='git commit --amend --no-edit --date=now'
 
+alias pkgList='apt-mark showmanual > package.list'
