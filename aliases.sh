@@ -31,3 +31,4 @@ alias gco='git checkout'
 alias gca='git commit --amend --no-edit --date=now'
 
 alias pkgList='apt-mark showmanual > package.list'
+alias pktInstallList='apt-mark showmanual > package.list'
