@@ -1,3 +1,9 @@
+" automatically install vim-plug and run PlugInstall if vim-plug not found
+if empty(glob('~/.vim/bundle/Vundle.vim'))
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  vim +PluginInstall +qall
+endif
+
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
