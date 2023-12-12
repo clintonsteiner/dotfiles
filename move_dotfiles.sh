@@ -1,8 +1,8 @@
 #!/bin/bash
 files=(
-".bashrc"
-".psqlrc"
-".tmux.conf"
+    ".bashrc"
+    ".psqlrc"
+    ".tmux.conf"
 ".vimrc")
 
 for file in "${files[@]}"; do
