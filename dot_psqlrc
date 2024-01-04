@@ -1,0 +1,6 @@
+\pset null '(null)'
+set client_encoding='SQL_ASCII'
+\pset pager on
+\pset border 2
+-- \set VERBOSITY VERBOSE
+\timing
