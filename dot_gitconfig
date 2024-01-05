@@ -2,3 +2,5 @@
 [user]
 	name = CJ Steiner
 	email = clintonsteiner@gmail.com
+[pull]
+	rebase = true
