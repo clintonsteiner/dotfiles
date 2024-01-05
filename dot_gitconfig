@@ -4,3 +4,5 @@
 	email = clintonsteiner@gmail.com
 [pull]
 	rebase = true
+[core]
+	editor = vim
