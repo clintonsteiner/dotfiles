@@ -23,7 +23,6 @@ Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-Plugin 'Lokaltog/powerline', {'rtp':'powerline/bindings/vim'}
 Plugin 'groovy.vim'
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'vim-airline/vim-airline'
