@@ -22,6 +22,7 @@ alias ga='git add'
 alias gr='git restore'
 alias grs='git restore --staged'
 alias gcm='git commit -m'
+alias gb='git branch'
 alias gbdates='git for-each-ref --sort=committerdate refs/heads/ --format="%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:short)%(color:reset))"'
 alias gca='git commit --amend --no-edit --date=now'
 
