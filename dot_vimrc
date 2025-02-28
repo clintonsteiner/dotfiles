@@ -1,7 +1,7 @@
 " automatically install vim-plug and run PlugInstall if vim-plug not found
 if empty(glob('~/.vim/bundle/Vundle.vim'))
-  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-  vim +PluginInstall +qall
+      silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+        autocmd VimEnter * PluginInstall
 endif
 
 set nocompatible
@@ -48,11 +48,11 @@ let python_highlight_all = 1
 syntax on
 
 set encoding=utf-8
-if has('gui_running')
-	set background=dark
-	colorscheme solarized
-else
-	colorscheme zenburn
+if empty(glob('~/.vim/colors/zenburn.vim'))
+  silent !mkdir -p ~/.vim/colors
+  silent !curl -fLo ~/.vim/colors/zenburn.vim https://raw.githubusercontent.com/jnurmine/Zenburn/master/colors/zenburn.vim
 endif
+
+colorscheme zenburn
 
 let g:jedi#use_tabs_not_buffers = 1
