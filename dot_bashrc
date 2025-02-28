@@ -48,9 +48,8 @@ export CC=clang
 export CXX=clang++
 export LOGLEVEL='debug'
 
-source ~/git/dotfiles/git-completion.bash
 if [ -f ~/git/dotfiles/git-completion.bash ]; then
-    . ~/git/dotfiles/pytest_complete || true
+    . ~/git/dotfiles/git-completion.bash || true
 fi
 
 if [ -f ~/git/dotfiles/pytest_complete ]; then
