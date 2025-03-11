@@ -24,6 +24,7 @@ alias grs='git restore --staged'
 alias gcm='git commit -m'
 alias gb='git branch'
 alias gbdates='git for-each-ref --sort=committerdate refs/heads/ --format="%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:short)%(color:reset))"'
+alias gbresethard='git reset --hard @{u}'
 alias gca='git commit --amend --no-edit --date=now'
 
 alias pkgList='apt-mark showmanual > package.list'
